@@ -1,0 +1,27 @@
+{
+  "name": "sqlauction",
+  "version": "1.0.0",
+  "description": "node cli auction application allowing users to post or bid on items pushed to sql database",
+  "main": "greatBay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johndexteriv/SQLauction.git"
+  },
+  "keywords": [
+    "MySQL",
+    "Inquirer"
+  ],
+  "author": "Dexter Garner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johndexteriv/SQLauction/issues"
+  },
+  "homepage": "https://github.com/johndexteriv/SQLauction#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
