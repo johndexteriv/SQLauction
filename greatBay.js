@@ -37,3 +37,32 @@ const promptAuctionOptions = () => {
 			}
 		});
 };
+
+const newItem = async () => {
+	console.log("Inserting a new product...\n");
+	const answers = await inquirer.prompt([
+		{
+			type: "input",
+			name: "itemname",
+			message: "What item would you like to list?",
+		},
+		{
+			type: "number",
+			name: "currentbid",
+			message: "What price would you like to start the bidding at?",
+		},
+	]);
+	var query = connection.query(
+		"INSERT INTO listings SET ?",
+		{
+			item: answers.itemname,
+			currentbid: answers.currentbid,
+		},
+		function (err, res) {
+			if (err) throw err;
+			console.log("Your product is now live! \n");
+			// Call updateProduct AFTER the INSERT completes
+			promptAuctionOptions();
+		}
+	);
+};
