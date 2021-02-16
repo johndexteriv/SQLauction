@@ -2,17 +2,17 @@
 
 ## Overview
 
-A Node application which allows users to create and bid on assorted items, tasks, jobs or projects in auction format.
+A Node application which allows users to post and bid on assorted items, tasks, jobs or projects in auction format.
 
 ## User Story
 
-- As a user, I want to be able to post and bid on in a simple auction style format.
+- As a user, I want to be able to post and bid on items in a simple auction style format.
 
 ## Acceptance Criteria
 
 The user should be able to:
 
-- Post an item with information stating the items name and start price.
+- Post an item with information stating the items name and starting price.
 
 - Filter through posted items, select item of choice and place a bid.
 
@@ -42,7 +42,7 @@ The user should be able to:
 
 This project is licensed under the MIT License.
 
-## Repository and Deployed Application
+## Repository
 
 - [GitHub Repo](https://github.com/johndexteriv/SQLauction)
 
