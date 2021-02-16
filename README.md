@@ -21,8 +21,11 @@ The user should be able to:
 ## Instructions
 
 - Run "npm install" to install dependencies
+
 - Create and seed local MySQL database with greatBaySeed.sql file
-- Run node greatBay.js to begin auction
+
+- Run "node greatBay.js" to begin auction
+
 - Follow along with auction prompts
 
 ## Built With
