@@ -46,6 +46,8 @@ This project is licensed under the MIT License.
 
 - [GitHub Repo](https://github.com/johndexteriv/SQLauction)
 
+![DatabaseSeed](/assets/images/databaseseed.png)
+
 ![StartAuction](/assets/images/startauction.png)
 
 ![PostItem](/assets/images/postitem.png)
